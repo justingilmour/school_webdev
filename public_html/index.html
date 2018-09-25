@@ -3,116 +3,69 @@
 
 <html lang="en-us">
     <head>
-        <style>
-  body {
-  background: #f7f7f7;
-}
 
-header {
-  background-color: #921988;
-  background-repeat: no-repeat;
-  color: #f9e5af;
-  font-family: Georgia, Palatino, serif;
-  font-size: 50px;
-  height: 60px;
-  padding: 10px;
-}
-
-section {
-  background: #FFFFFF;
-  max-width: 700px;
-  padding: 5px;
-}
-
-article {
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 5px;
-}
-
-p {
-    font-family: arial,sans-serif;
-}
-
-
-h1 {
-  font-size: 24px;
-  font-family: arial,sans-serif;
-  color: rgb(147, 26, 42);
-  text-align: center;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: arial,sans-serif;
-  color: rgb(147, 26, 42);
-}
-
-.prerequisite {
-  font-style: italic;
-  display: inline;
-}
-
-.credits {
-  display: inline;
-  color: #0600b7;
-}
-
-.embedded_skill {
-  display: inline;
-  color: #995c00;
-}
-
-.offered {
-  display: inline;
-  color: #000080;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-family: arial,sans-serif;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-nav li a:hover {
-  background-color: #111;
-}
-  </style>
        
         <meta charset="utf-8">
         <title>H2O Empire</title>
+        <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+
     </head>
     <body>
     <header>
         <img src="img/logo.png" alt="H2O Empire">
-        <nav>
-        	<ul>
-            <li><b>Home</b></li>
-            <li><a href="health.html">Health Benefits</a></li>
-            <li><a href="uses.html">Uses</a></li>
-            <li><a href="source.html">Source</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="about.html">About</a></li>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Simpson College</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+ <div class="H20 Empire" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><em>Home</em></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="health.html">Health Benefits</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="uses.html">Uses</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="source.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Source
+              </a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          
+ 
         </ul>
-        </nav>
+
+      </div>
+    </nav>
         <hr>
     </header>
         <p> <br> <br> <br> <br> <br> <br> <br>
