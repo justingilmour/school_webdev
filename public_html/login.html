@@ -31,11 +31,12 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          
           <li class="nav-item active">
             <a class="nav-link" href="login.html">Login</a>
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="health.html">Health Benefits</a>
           </li>
@@ -70,14 +71,19 @@
       </div>
     </nav>
         <hr>
-    </header>
+    </header>   
     <form>
-        Login:<br>
-        <input type="text" name="Username"><br>
-        Password:<br>
-         <input type="password" name="Password"><br>
-         <input type="submit" value="Submit">
-    </form>     
+  <div class="form-group">
+    <label for="exampleInputEmail1">Login</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form> 
     
         
         <footer>

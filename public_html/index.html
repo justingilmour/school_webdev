@@ -16,9 +16,22 @@
 
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
-
+    <style>
+      .mycolor {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-width: 1px;
+      }
+      .container {
+        background-color: #FFFFEE;
+        border-style: solid;
+        border-width: 1px;
+      }
+    </style>
     </head>
+
     <body>
+    <div class="container">
     <header>
         <img src="img/logo.png" alt="H2O Empire">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -68,12 +81,14 @@
     </nav>
         <hr>
     </header>
+    <div class="mycolor d-none d-md-black col-2">
         <p> <br> <br> <br> <br> <br> <br> <br>
             <a href="login.html">Login</a> / <a href="signup.html">Sign-Up</a><br>
         </p>
-    	
+    </div>
         <h1 style="text-align:center;font-size: 40px;">What is H2O Empire?</h1>
-
+        <div class="row">
+            <div class="col-6">
         <ul>
             <li>H2O Empire sells Dihydrogen Monoxide at discount rates.</li>
             <li>All water is packaged in advanced liquid holding technology.</li>
@@ -81,23 +96,29 @@
             <li>We're a startup non-profit organization that supports living.</li>
             <li>Our goal as a company is to quench the thirst of all living things.</li>
         </ul>
-
+        </div>
+            </div>
+            <img src="img/world.png" alt="Statistics about water"> <br><br>
+            <div class="row">
+                <div class="col-6 col-md-6">
         <p>
             H2O Empire was founded by two aspiring students sitting in a classroom, hard at work trying to solve the nation's greatest issues.<br>
              It is a common known fact that everyone in the world has thirst, and we would like to help provide everyone with top quality Dihydrogen Monoxide.<br>
             We are not like any other product out there, we only provide the purest form of Dihydrogen Monoxide.<br>
-            <img src="img/world.png" alt="Statistics about water"> <br><br>
-            
         </p>
+        </div>
+        <div class="col-6 col-md-6">
         <p>
-        Our goal is to increase the amount of people drinking clean water and our Dihydrogen Monoxide is just that. Every 20 seconds, a child dies from a water-related disease. With our water people would not have to worry about getting clean water or even sanitizing it. The projections for 2025 indicate that the number of people living in water-stressed countries will increase to 3 billion. We as a company highly recommend take a look at more water <a href="http://rehydrate.org/water/">facts</a> to increase your knowledge about why our goal is so important to us and the survival of our world.
-
+        Our goal is to increase the amount of people drinking clean water and our Dihydrogen Monoxide is just that. Every 20 seconds, a child dies from a water-related disease. With our water people would not have to worry about getting clean water or even sanitizing it. The projections for 2025 indicate that the number of people living in water-stressed countries will increase to 3 billion. We as a company highly recommend take a look at more water <a href="http://rehydrate.org/water/" class="btn btn-primary">facts</a> to increase your knowledge about why our goal is so important to us and the survival of our world.
+</p>
+</div>
+</div>
         <!-- 
             Chemical information from: https://en.wikipedia.org/wiki/Properties_of_water
         -->
 
         <h3>Chemical Properties of Dihydrogen Monoxide</h3>
-        <table>
+        <table class="table">
             <thead>
                 <tr>
                     <th>
@@ -169,5 +190,6 @@
             <hr>
             H2O Empire; Blake Dalmas &#38; Tanner Alderson 2018
         </footer>
+        </div>
     </body>
 </html>
