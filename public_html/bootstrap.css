@@ -15,3 +15,16 @@ body {
 .btn {
 	margin-bottom: 5px ;
 }
+
+h3 {
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+h2 {
+    font-family: tahoma, geneva, sans-serif;
+}
+ul {
+    list-style-type: square;
+}
+    
+    
