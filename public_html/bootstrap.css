@@ -1,4 +1,5 @@
 .container {
+    color: black;
 	min-width: 2000px;
 	padding-left: 25px;
 	padding-top: 10px;
@@ -10,11 +11,13 @@
 >>>>>>> 996157e819d4514eae0ac6f98da7029bc2da8415
 
 .jumbotron{
-	color: white;
+	color: black;
 }	
 
 body {
-	color: black;
+    margin:0;
+    padding:0;
+    height: 100%;
 }
 
 .btn {
@@ -60,13 +63,8 @@ form {
 }
 footer {
     font-size: large;
-}
-    
-    
-=======
-
-footer {
-   padding-bottom: 5px;
+    bottom: 0;
+    padding-bottom: 5px;
 }
 
 >>>>>>> cc9cdc29ab29fbe8eb6a267bfae0b4dc9a524a31
