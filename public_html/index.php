@@ -11,9 +11,9 @@
 
     </head>
     <body>
-    <header>
+
       <?php include '../resources/navigation.php'; ?>
-    </header>
+
         <div class="jumbotron container-fluid">
 	        <h1 class="display-2">Welcome to H2O Empire!</h1>
 	        <p class="lead">This is a website where infomation about Dihydrogen Monoxide is stored and more!</p>

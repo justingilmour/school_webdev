@@ -11,9 +11,9 @@
 
     </head>
     <body>
-        <header>        
+       
             <?php include '../resources/navigation.php'; ?>
-        </header>
+
 
         <div class="card center w-50 bg-light text-dark" style="margin: auto; margin-bottom: 9%; margin-top: 4%;">
             <div class="card-header">

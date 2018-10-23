@@ -17,9 +17,9 @@ Tanner.alderson@my.simpson.edu
     </head>
 
     <body>
-	<header>
+
 		<?php include '../resources/navigation.php'; ?>
-	</header>
+
 
         <div class="container">
         	<br><br>

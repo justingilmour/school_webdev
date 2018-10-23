@@ -12,9 +12,9 @@
     </head>
 
     <body>
-    <header>
+        
         <?php include '../resources/navigation.php'; ?>
-    </header>
+
 
         <div class="container col-12">
             <br>
