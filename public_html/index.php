@@ -12,7 +12,7 @@
     </head>
     <body>
 
-      <?php include '../resources/navigation.php'; ?>
+      <?php include '..\resources\navigation.php'; ?>
 
         <div class="jumbotron container-fluid">
 	        <h1 class="display-2">Welcome to H2O Empire!</h1>
