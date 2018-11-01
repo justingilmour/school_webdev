@@ -14,7 +14,7 @@
                 <a class="nav-link" href="store.php">Store</a>
               </li>
 
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="about.php">Contact Us</a>
               </li>
 
